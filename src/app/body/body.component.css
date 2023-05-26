@@ -1,0 +1,14 @@
+main{
+    background-image: url(./../images/bgedit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-top: 20%;
+    color: aliceblue;
+}
+
+#maintitle{
+    text-align: center;
+    margin-top: 150px;
+    color: aliceblue;
+}

@@ -1,0 +1,130 @@
+#hmmain {
+  height: 95vh;
+  overflow-y: auto;
+}
+
+.card {
+  color: #fff;
+  width: 600px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-top: 15%;
+  background-color: rgb(1, 6, 29);
+  text-align: center;
+}
+.card2,
+.card3,
+.card4,
+.card5 {
+  color: #fff;
+  width: 600px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  background-color: rgb(1, 6, 29);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.button-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.button-secondary {
+  background-color: #000000;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+h2 {
+  margin: auto;
+}
+
+p {
+  font-size: medium;
+}
+
+#colorchange,
+button {
+  height: 30px;
+  width: 5%;
+  border-radius: 50px;
+  margin-left: 5px;
+}
+
+#ccblue {
+  background-color: rgb(0, 0, 61);
+}
+#ccblue:hover {
+  background-color: rgb(0, 0, 99);
+}
+
+#ccgreen {
+  background-color: rgb(0, 39, 0);
+}
+
+#ccgreen:hover {
+  background-color: rgb(0, 61, 0);
+}
+
+#ccred {
+  background-color: rgb(66, 0, 0);
+}
+
+#ccred:hover {
+  background-color: rgb(99, 0, 0);
+}
+
+#cardbtns>button{
+  margin-top: 20px;
+  width: 130px;
+  border-radius: 5px;
+  background-color: #000000;
+  color: aliceblue;
+}
+
+#cardbtns>button:hover{
+  background-color: #1f1f1f;
+}
+
+#hiddenCard{
+  margin-top: -200px;
+  background-color: #00000000;
+  border-color: #007bff00;
+}

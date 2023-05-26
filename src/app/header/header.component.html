@@ -1,0 +1,13 @@
+<header id="myHeader" class="header">
+  <nav class="navbar">
+    <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/b/be/Lost_Ark_logo.png">
+  </nav>
+  <nav class="navbar2">
+    <button class="menubtn" [routerLink]="'home'">Home</button>
+    <button class="menubtn" [routerLink]="'createCharacter'">Create a Character</button>
+    <button class="menubtn" [routerLink]="'addCharacters'">Add Player</button>
+    <button class="menubtn" [routerLink]="'showCharacters'">Player List</button>
+    
+  </nav>
+  <router-outlet></router-outlet>
+</header>

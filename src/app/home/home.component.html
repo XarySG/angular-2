@@ -1,0 +1,147 @@
+<section id="hmmain">
+
+
+    <div class="card" [style.backgroundColor]="cardBackgroundColor">
+
+        <section id="btns">
+            <div>
+                <button id="ccblue" (click)="changeCardBackgroundColor('rgb(1, 6, 29)')"></button>
+                <button id="ccred" (click)="changeCardBackgroundColor('rgb(66, 0, 0)')"></button>
+                <button id="ccgreen" (click)="changeCardBackgroundColor('rgb(0, 39, 0)')"></button>
+            </div>
+            <div id="cardbtns">
+                <button id="c2btn" (click)="scrollToCard(card2)"> Warriors</button>
+                <button id="c3btn" (click)="scrollToCard(card3)"> Martial Artists</button>
+                <button id="c4btn" (click)="scrollToCard(card4)"> Gunners</button>
+                <button id="c5btn" (click)="scrollToCard(card5)"> Mages</button>
+            </div>
+
+
+        </section>
+    </div>
+    <div id="hiddenCard" class="card" #card2></div>
+    <div class="card" [style.backgroundColor]="cardBackgroundColor">
+        <h2>Warriors</h2>
+        <br><br><br>
+
+        <h3>Berserker (male)</h3>
+        <p>Despite using a greatsword as a weapon, the Berserker has relatively quick attack animations and decent
+            defence.
+            He can buff himself and a party for big damage and gain increased movement speed during these burst windows.
+        </p>
+        <br><br>
+
+        <h3>Paladin (male)</h3>
+        <p>A Paladin is primarily a support class with the ability to shield and buff himself and party members. This
+            doesn't mean he can't dish out the damage, though, and he has decent defence to help him stay alive.</p><br><br>
+            
+        <h3>Gunlancer (male)</h3>
+        <p>A true tank, the Gunlancer absorbs damage and protects party members. He can shield himself and allies and
+            can pull enemies towards him—think WoW's death knight ability—making up for his lack of mobility.</p><br><br>
+
+        <h3>Destroyer (male)</h3>
+        <p>The slow and tanky Destroyer wields a hammer and can control gravity. He specializes in burst damage,
+            building it up with Concentration skills and then dishing it out with Gravity Release skills.</p><br><br>
+        <br><br><br>
+
+    </div>
+
+    <div id="hiddenCard" class="card" #card3></div>
+    <div class="card"  [style.backgroundColor]="cardBackgroundColor">
+        <h2>Martial Artists</h2>
+        <br><br><br>
+
+        <h3>Striker (male)</h3>
+        <p>Striker attacks enemies like a strong wind. Since he is equipped with a variety
+            of physical skills with fast movement, he displays splendid aerial combos after hitting enemies quickly, and
+            uses powerful elemental skills to turn the battle.
+        </p><br><br>
+
+        <h3>Wardancer (female)</h3>
+        <p>Wardancers augment their lightning-quick fighting skills with elemental power. They can store up elemental
+            energy to unleash in devastating attacks and gravity-defying maneuvers.
+        </p><br><br>
+
+        <h3>Scrapper (female)</h3>
+        <p>Armed with a heavy gauntlet, scrappers draw on two inverse forms of attack energy that feed off each other to
+            deliver nonstop destruction.
+        </p><br><br>
+
+        <h3>Soulfist (female)</h3>
+        <p>The soulfist switches between melee and ranged attacks, which can be used together for explosively powerful
+            combos.
+        </p><br><br>
+
+        <h3>Glaivier (female)</h3>
+        <p>The Glaivier has two distinct skill sets, each one is represented by one of her weapons, the spear and the
+            glaive. The best way to leverage her eloquent, yet deadly form of martial arts is to find balance between
+            her two stances.
+        </p><br><br>
+
+    </div>
+
+    <div id="hiddenCard" class="card" #card4></div>
+    <div class="card" [style.backgroundColor]="cardBackgroundColor">
+        <h2>Gunners</h2>
+        <br><br><br>
+
+        <h3>Gunslinger (female)</h3>
+        <p>With a gun for every occasion and the ability to switch between them quickly, gunslingers are deadly
+            opponents at any range. Light on their feet thanks to their catlike reflexes, gunslingers are hard to pin
+            down
+        </p><br><br>
+
+        <h3>Artillerist (male)</h3>
+        <p>Artillerists believe in firepower and lots of it, blasting their enemies with some of the biggest guns under
+            the sun.
+        </p><br><br>
+
+        <h3>Sharpshooter (male)</h3>
+        <p>Sharpshooters are ranged attackers who use mechanical bows with special arrows that have custom effects.
+            Their high survivability and agility keep them in the fight for the long haul, and their stealthy
+            machinations are excellent for exploiting enemy weaknesses.
+        </p><br><br>
+
+        <h3>Deadeye (male)</h3>
+        <p>With their flexible triple-wielding playstyle and brash attitude, you might mistakenly suppose that this
+            rough-and-tumble rogue has a death wish.
+        </p><br><br>
+
+        <h3>Machinist (male)</h3>
+        <p>The Machinist is a combination of cutting-edge technology and cutthroat combat. Using drone attacks, the
+            Machinist takes time to analyze their aim ensuring they hit their target. The Machinist is deadly and deadly
+            accurate.
+        </p><br><br>
+
+    </div>
+
+    <div id="hiddenCard" class="card" #card5></div>
+    <div class="card" [style.backgroundColor]="cardBackgroundColor">
+        <h2>Mages</h2>
+        <br><br><br>
+
+        <h3>Bard (female)</h3>
+        <p>Virtuosos of the Liane harp, bards can evoke soothing serenades to heal their team—or unleash a chorus of
+            pain on their unfortunate foes. Their attack power is rather low, but their ability to support allies makes
+            them a harmonious part of any team.
+        </p><br><br>
+
+        <h3>Sorceress (female)</h3>
+        <p>The Sorceress wields powerful magic based on three elements with spells that can deal area damage. They can
+            easily handle multiple enemies helping them dominate the battlefield.
+        </p><br><br>
+
+        <h3>Arcanist (female)</h3>
+        <p>Infusing special cards with her Magick, The Arcanist leverages her deck to inflict the most damage to her
+            enemies. From slicing up enemies to summoning powerful attacks, she’s always prepared.
+        </p><br><br>
+
+        <h3>Summoner (female)</h3>
+        <p>Despite their delicate constitution, summoners are a force to be reckoned with in any fight. They call forth spirits of the elements to fight for them, and each elemental has their own special skills to help the summoner shine in every situation.
+        </p><br><br>
+    </div>
+
+
+
+    <router-outlet></router-outlet>
+</section>
